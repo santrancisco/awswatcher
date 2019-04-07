@@ -21,7 +21,7 @@
     },
     "LambdaHandler": {
       "Type": "String",
-      "Default": "awsalarmtrigger",
+      "Default": "awswatcher",
       "Description": "The lambdahandler that we call upon alarm being triggered"
     },
     "SnsTopicName": {
