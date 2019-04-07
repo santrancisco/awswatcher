@@ -19,8 +19,10 @@ In order for cloudformation to run and pull the lambda function binary, you will
  - Create or reuse the Cloudtrail to Cloudwatch Log integration and note down the cloudwatch log group name.
 
  - Create an S3 bucket in the same region with Cloudwatch you setup above. This bucket will be used to deploy the code to our lambda function
+ 
+ - Run `make` to create awswatcher.zip under ./bin folder.
 
- - Uplpad the awswatcher.zip file to the bucket.
+ - Uplpad the awswatcher.zip file to the S3 bucket.
 
  - Upload this cloudformation template and fill in the information with what we have above.
 
